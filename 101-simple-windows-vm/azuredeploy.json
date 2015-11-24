@@ -31,7 +31,7 @@
       "defaultValue": "West US",
       "allowedValues": [
         "West US",
-        "East US 2",
+        "East US 2"
       ],
       "metadata": {
         "description": "Restricts choices to where premium storage is located in the US"
@@ -184,7 +184,7 @@
             "diskSizeGB": "[parameters('sizeOfDiskInGB')]",
             "lun": 0,
             "vhd": {
-              "Uri": "[variables("dataDisk1VhdName')]"
+              "Uri": "[variables('dataDisk1VhdName')]"
             },
             "creationOption": "Empty"
           }
